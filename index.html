@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" style="scroll-behavior: auto;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ontouchstart="touchStart(event)"
+  ontouchmove="touchMove(event)"
+  ontouchend="touchEnd()">
+    
+
+    <nav>
+        <div class="navMenu">
+            <ul>
+                <li><a href="#"><img src="https://img.icons8.com/material/30/ffffff/home--v5.png"/></a></li>
+                <li><a href="#about"><img src="https://img.icons8.com/material/30/ffffff/about--v1.png"/></a></li>
+                <li><a href="#services"><img src="https://img.icons8.com/material/30/ffffff/idea--v1.png"/></a></li>
+                <li><a href="#contact"><img src="https://img.icons8.com/material/30/ffffff/contacts--v1.png"/></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="btn btn-secondary" onclick="back()">back</div>
+            <h1>This is home</h1>
+            <h3>About this page</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae distinctio tenetur sed inventore rem laboriosam cumque temporibus reiciendis maxime quaerat perferendis animi, eos qui atque rerum fuga labore. Distinctio, facere!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quia vitae, delectus dolores, libero laudantium asperiores deleniti itaque, est cum sapiente. Alias expedita amet adipisci rem nihil necessitatibus, ad minima voluptate voluptas eaque inventore vitae nostrum ab, aspernatur sed et delectus aliquid recusandae ex? Dicta officia excepturi quibusdam natus dolore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veniam ut dolores quos eligendi perferendis sunt pariatur reiciendis officiis iste ullam totam sequi, ipsum eum hic saepe veritatis eaque itaque atque nihil neque esse nobis harum error? A quibusdam sunt amet corporis vero provident ipsum suscipit doloremque est. Ipsum ipsa, distinctio tempore repudiandae veritatis, nihil exercitationem suscipit aut quas eius iusto, totam aliquam. Necessitatibus quaerat repellendus odio voluptates facilis eum quae totam consectetur nisi quod praesentium modi, quos porro explicabo inventore tempore, ullam similique. Nostrum, consectetur culpa! Sint nisi id sed nihil error, nostrum voluptate excepturi soluta optio rerum incidunt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro, blanditiis numquam quibusdam ipsam repellat ea nihil repudiandae alias fuga earum officia voluptatum voluptas esse nostrum suscipit quam expedita placeat commodi in velit eaque harum ipsum tempora. Est ea eius totam laborum soluta asperiores temporibus quisquam! A reprehenderit labore ipsum vero magnam suscipit, et sint quae deserunt consectetur saepe harum accusamus ut voluptate aliquam, rem odit itaque odio voluptas quia veritatis nam culpa consequatur. Aperiam porro voluptatum nisi? Dolor rerum nam amet aut non in corrupti a libero quae. Perferendis modi cupiditate veritatis impedit hic quam. Eos recusandae quod magnam!</p>
+            <a href="#home2" class="btn btn-primary my-5">Get started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h1>this is about</h1>
+        <div class="btn btn-secondary" onclick="back()">back</div>
+        <a href="#home2" class="btn btn-primary my-5">Get started</a>
+    </section>
+
+    <section id="services" class="services">
+        <h1>this is services</h1>
+        <div class="btn btn-secondary" onclick="back()">back</div>
+        <a href="#home2" class="btn btn-primary my-5">Get started</a>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1>this is contact</h1>
+        <div class="btn btn-secondary" onclick="back()">back</div>
+        <a href="#home2" class="btn btn-primary my-5">Get started</a>
+    </section>
+
+    <section id="home2" class="home2">
+        <div class="btn btn-secondary" onclick="back()">back</div>
+        <div class="text">
+            <h1>this is home 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi repellat ab ducimus at fugiat fuga blanditiis autem repellendus. Beatae, odio? Iste totam, ipsum, porro natus vitae, obcaecati ipsam nam repudiandae dolorum commodi sunt molestiae non pariatur assumenda. Ab dignissimos esse laudantium facilis rem aspernatur accusantium numquam eum impedit deleniti, incidunt rerum qui, earum dolorum iusto sit beatae voluptates unde! Tempore consequuntur eveniet voluptates autem rem consequatur deserunt repudiandae praesentium ducimus ex, quia voluptatum quod eos veritatis aliquid, corporis exercitationem blanditiis consectetur laborum dolor, est dolorem reprehenderit neque. Odit ut, alias suscipit et impedit illo placeat tenetur maiores sed quae amet.</p>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+        const back = () => {
+            window.history.back();
+        }
+        const forward = () => {
+            window.history.forward();
+        }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
