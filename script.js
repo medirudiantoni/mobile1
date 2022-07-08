@@ -10,15 +10,9 @@ function touchMove(evt){
 }
 function touchEnd(){
     if(startingX+100 < movingX){
-        alert('right')
+	    window.history.back();
 	} else if(startingX-100 > movingX) {
-        alert('left')
+		window.history.forward();
     }
-					 
-	if(startingY+100 < movingY){
-		console.log('down');
-	} else if(startingY-100 > movingY){
-		console.log('up');
-	}
 }
 						
