@@ -61,7 +61,7 @@ nav .navMenu ul li:hover {
 }
 
 .home {
-    overflow-y: scroll;
+    overflow: hidden;
     padding-bottom: 40%;
 }
 .home-content {
@@ -69,6 +69,7 @@ nav .navMenu ul li:hover {
     height: 200vh;
     background-color: antiquewhite;
     padding: 10%;
+    overflow-y: scroll;
 }
 
 .home2 {
